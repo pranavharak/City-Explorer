@@ -1,0 +1,123 @@
+.div-main{
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.contact-div{
+    margin: 0 auto;
+    margin-top: 45px;
+    border-radius: 10px;
+    padding: 15px;
+    width: 800px;
+    backdrop-filter: blur(25px);
+    justify-items: center;
+    box-shadow: 10px;
+}
+.contact-div h1{
+    margin: 0 auto;
+    margin-left: 310px;
+    font-size: 40px;
+    font-family: "Roboto Slab", serif;
+    color:rgb(255, 166, 0);
+}
+.div-main h3{
+    font-family: "Roboto Slab", serif;
+    color:#FFD700;
+    opacity: 80% ;
+}
+.inp1-div{
+    display: flex;
+    gap: 20px;
+}
+.inp3-div{
+    display: flex;
+}
+.inp2-div{
+    display: flex;
+    gap: 20px;
+}
+.ml{
+    margin-top: 20px;
+    font-size: 18px;
+    border-color:black;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 13pt;
+    color: black;
+    border-style: solid;
+    border-radius: 7px;
+}
+.mob{
+    margin-top: 20px;
+    font-size: 18px;
+    border-color:black;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 13pt;
+    color: black;
+    border-style: solid;
+    border-radius: 7px;
+}
+.msg{
+    margin-top: 20px;
+    font-size: 18px;
+    border-color:black;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+    height: 150px;
+    width: 643px;
+    padding: 10px;
+    font-size: 13pt;
+    color: black;
+    border-style: solid;
+    border-radius: 7px;
+}
+.fst{
+    margin-top: 20px;
+    font-size: 18px;
+    border-color:black;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 13pt;
+    color: black;
+    border-style: solid;
+    border-radius: 7px;
+}
+.lst{
+    margin-top: 20px;
+    font-size: 18px;
+    border-color:black;
+    background-color: white;
+    height: 20px;
+    width: 300px;
+    padding: 10px;
+    font-size: 13pt;
+    color: black;
+    border-style: solid;
+    border-radius: 7px;
+}
+.sbmit{
+    margin-top: 10px;
+    height: 50px;
+    width: 350px;
+    font-size: 22px;
+    font-family: "Roboto Slab", serif;
+    border-radius: 15px;
+    padding: 6px;
+    cursor: pointer;
+    border: none;
+    transition: all 0.3s ease;
+    font-weight: 600;
+    background-color: #FFA500;
+}
+.sbmit:hover{
+    background-color: #FFC107;
+    transform: scale(1.0);
+    box-shadow: 0 4px 10px rgba(255, 215, 0, 0.5);
+}
