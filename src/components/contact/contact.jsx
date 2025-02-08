@@ -1,24 +1,70 @@
 import "./contact.css";
 function Contact(){
     return(
-        <div className="div-main">
-            <div className="contact-div">
-                <h1> Contact us</h1>
-                <h3>Need more information? Share your contact details and we will reach out to you soon.</h3>
-                <div className="inp1-div">
-                    <input type="text" className="fst"  placeholder="Enter First Name: "></input>
-                    <input type="text" className="lst"  placeholder="Enter Last Name: "></input>
-                </div>
-                <div className="inp2-div">
-                    <input type="text" className="mob"  placeholder="Enter Mobile Number: "></input>
-                    <input type="text" className="ml"  placeholder="Enter Email Address: "></input>
-                </div>
-                <div className="inp3-div">
-                    <textarea className="msg"  placeholder="Message:" ></textarea>
-                </div>
-                <button type="submit" className="sbmit">Submit</button>
+      <div class="landing_page">
+      <div class="responsive-container-block big-container">
+        <div class="responsive-container-block container">
+          <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12 left-one">
+            <div class="content-box">
+              <p class="text-blk section-head">
+                Lorem ipsum amet dolor
+              </p>
+              <p class="text-blk section-subhead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis volupta
+              </p>
+              <div class="icons-container">
+                <a class="share-icon">
+                  <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-twitter.png"/>
+                </a>
+                <a class="share-icon">
+                  <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-facebook.png"/>
+                </a>
+                <a class="share-icon">
+                  <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-google.png"/>
+                </a>
+                <a class="share-icon">
+                  <img class="img" src="https://workik-widget-assets.s3.amazonaws.com/Footer1-83/v1/images/Icon-instagram.png"/>
+                </a>
+              </div>
             </div>
+          </div>
+          <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6 right-one" id="i1zj">
+            <form class="form-box">
+              <div class="container-block form-wrapper">
+                <p class="text-blk contactus-head">
+                  <a class="link" href="">
+                  </a>
+                  Get a quote
+                </p>
+                <p class="text-blk contactus-subhead">
+                  We will get back to you in 24 hours
+                </p>
+                <div class="responsive-container-block">
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i10mt-7">
+                    <input class="input" id="ijowk-7" name="FirstName" placeholder="First Name"/>
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i1ro7">
+                    <input class="input" id="indfi-5" name="Last Name" placeholder="Last Name"/>
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-6 wk-ipadp-6 emial" id="ityct">
+                    <input class="input" id="ipmgh-7" name="Email" placeholder="Email"/>
+                  </div>
+                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                    <input class="input" id="imgis-6" name="PhoneNumber" placeholder="Phone Number"/>
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-7">
+                    <textarea aria-placeholder="Type message here" class="textinput" id="i5vyy-7" placeholder="Type message here"></textarea>
+                  </div>
+                </div>
+                <button class="submit-btn">
+                  Get quote
+                </button>
+              </div>
+            </form>
+          </div>
         </div>
+      </div>
+    </div>
     )
 }
 export default Contact;

@@ -46,10 +46,19 @@
     width: 100%; 
   }
 .logoimg{
-    height: 100px;
-    width: 100px;
+    height: 90px;
+    width: 95px;
 }
 .mainbar{
     background-color: rgba(0, 0, 0, 0.7);
     border-bottom: 2px solid #FFD700;
+}
+.brnd-div{
+    display: flex;
+    margin-top: 2px;
+    color: white;
+}
+.brnd-div h2{
+    margin-top: 25px;
+    margin-left: 10px;
 }
